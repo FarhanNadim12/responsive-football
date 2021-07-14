@@ -157,7 +157,7 @@ padding-left: 35px;
     padding: 20px 25px;
     display: grid;
     grid-template-columns:repeat(2,1fr);
-    padding-left: 8%;
+    
 }
 .group{
     width: 50%;
@@ -184,7 +184,7 @@ padding-left: 35px;
           
         }
         .group{
-            margin-left: 100px;
+            margin-left: 46px;
         }
     }
     /* -------END--------- */
@@ -238,8 +238,8 @@ padding-left: 35px;
            
         }
         .copyright p {
-            font-size: 15px;
-            margin-left: 28px;
+            font-size: 12px;
+            margin-left: 11px;
             margin-top: 15px;
-    }
+        }
 }
