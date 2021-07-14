@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*{
+margin: 0;
+padding: 0%;
+font-family: 'Poppins', sans-serif;
+}
+.half-width img{
+    width: 100%;
+}
+#first-section{
+    background-color: purple;
+   
+
+    height: 500px;
+}
+.first-section-content{
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   margin: auto;
+   padding-left: 15%;
+   padding-top: 4%;
+}
+.half-width{
+width: 50%;
+}
+button{
+border-style: none;
+background-color: orange;
+padding: 10px 15px;
+color: white;
+font-weight: 700;
+transition: transform 1s;
+}
+button:hover{
+    transform: scale(1.2);
+}
+.fa-arrow-right{
+    color: white;
+    margin-left: 3px;
+}
+.half-width h1{
+  font-size: 50px;
+  color: white;
+} 
+.detail{
+        padding-top: 4%;
+}
+
+@media (max-width:992px) {
+    .first-section-content{
+        grid-template-columns: repeat(1,1fr);
+        
+       
+       
+       padding-top: 4%;
+      
+    }
+    #first-section{
+      
+        height: 850px;
+    }
+    .half-width {
+        width: 100%;
+        padding-bottom: 70px;
+    }
+        }
+
+
+/* stylling second section */
+#second-section{
+    width: 100%;
+    background-color: whitesmoke;
+}
+.players{
+    width: 90%;
+    padding: 20px 25px;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    padding-left: 8%;
+  
+}
+.player{
+width: 80%;
+background-color: white;
+border-radius: 5px;
+padding-top: 30px;
+padding-bottom: 30px;
+margin-bottom: 20px;
+box-shadow: 10px 10px 20px gray;
+
+
+
+}
+.player-img img{
+width: 100%;
+}
+.player-img{
+width: 85%;
+padding-left: 35px;
+}
+.player-details{
+    width: 85%;
+    padding-left: 35px;
+}
+.player h3{
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+       
+@media (max-width:687px) {
+    .players{
+        width: 90%;
+        padding: 20px 0px;
+        display: grid;
+        grid-template-columns:repeat(1,1fr);
+       
+        margin-top: 30px;
+      
+    }
+    .player {
+        margin-left: 50px;
+        padding-left: 5px;
+        padding-right: 14px;
+    }
+    .player-img {
+        width: 85%;
+        padding-left: 25px;
+    }
+}
+
+/* --------- */
+
+
+/* styling third section */  
+
+#third-section{
+    width: 100%;
+    background-color: whitesmoke;
+}
+#third-section h1{
+    margin-left: 50px;
+} 
+.group ul li{
+    display: flex;
+    align-items: center;
+    margin-top:    10px;
+    transition: transform 1.1s;
+    cursor: pointer;
+}
+.group ul li:hover{
+   transform: translate(30px);
+}
+.groups{
+    width: 90%;
+    padding: 20px 25px;
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    padding-left: 8%;
+}
+.group{
+    width: 50%;
+    background-color: white;
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 20px gray;
+    margin-left: 200px;
+    margin-top: 30px;
+    
+    
+    }
+    @media (max-width:687px) {
+        .groups{
+            width: 90%;
+            padding: 20px 0px;
+            display: grid;
+            grid-template-columns:repeat(1,1fr);
+            
+           
+          
+        }
+        .group{
+            margin-left: 100px;
+        }
+    }
+    /* -------END--------- */
+    footer{
+        height: 400px;
+        padding-top: 20px;
+    }
+.footer-content{
+    width: 30%;
+    padding-top: 5%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.logo{
+    width: 90%;
+}
+.logo img{
+    width: 100%;
+}
+.fonts{
+    margin-left: 35%;
+}
+.font{
+        font-size: 40px;
+        color:
+        gray;
+       
+    }
+    .copyright p{
+        font-size: 30px;
+        margin-left: 111px;
+        margin-top: 15px;
+    }
+
+    @media (max-width:687px) {
+        .footer-content{
+            width: 53%;
+            padding-top: 5%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+        }  
+        .fonts{
+            margin-left: 29%;
+        }
+        .font{
+            font-size: 20px;
+            color:
+            gray;
+           
+        }
+        .copyright p {
+            font-size: 15px;
+            margin-left: 28px;
+            margin-top: 15px;
+    }
+}
